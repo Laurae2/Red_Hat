@@ -6,6 +6,6 @@ Cycle du scoring : aucun visible
 
 ![Alt text](i40^cimgpsh_orig2.png?raw=true "Optional Title")
 
-![Alt text](IMG_10092016_1951512.png?raw=true "Optional Title")
+![Alt text](IMG_10092016_1951512png.png?raw=true "Optional Title")
 
 
