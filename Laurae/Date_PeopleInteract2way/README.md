@@ -7,6 +7,40 @@ Verbose log when predicting
 ```Fold: <AUC> [Coef= <coef beta> + <std coef alpha où le coef directeur <1 > {<coef directeur < 1> / <coefficients> & <threshold appliqué pour couper les colonnes> ] (with <nom var1> & <nom var2>)```
 
 ```
+       X1               X2                X3              X4                   X5               X6                X7                  X8          
+ Min.   :0.0262   Min.   :-0.0226   Min.   :0.05    Min.   :-2.306e+14   Min.   :0.0507   Min.   :-0.0261   Min.   :0.000e+00   Min.   :-0.05431  
+ 1st Qu.:0.4219   1st Qu.: 0.4217   1st Qu.:0.42    1st Qu.: 0.000e+00   1st Qu.:0.4216   1st Qu.: 0.4217   1st Qu.:0.000e+00   1st Qu.: 0.42125  
+ Median :0.4402   Median : 0.4398   Median :0.44    Median : 0.000e+00   Median :0.4397   Median : 0.4398   Median :0.000e+00   Median : 0.43884  
+ Mean   :0.4448   Mean   : 0.4448   Mean   :0.44    Mean   :-8.557e+07   Mean   :0.4448   Mean   : 0.4448   Mean   :3.024e+06   Mean   : 0.44478  
+ 3rd Qu.:0.4703   3rd Qu.: 0.4698   3rd Qu.:0.47    3rd Qu.: 0.000e+00   3rd Qu.:0.4698   3rd Qu.: 0.4698   3rd Qu.:0.000e+00   3rd Qu.: 0.46946  
+ Max.   :0.8529   Max.   : 0.9875   Max.   :0.91    Max.   : 1.000e+00   Max.   :0.8346   Max.   : 0.9778   Max.   :4.015e+12   Max.   : 0.71602  
+ NA's   :994      NA's   :994       NA's   :40676   NA's   :994          NA's   :994      NA's   :994       NA's   :40676                         
+       X9                  X10               X11             X12                X13               X14               X15                X16          
+ Min.   :-1.729e+13   Min.   :0.01279   Min.   :0.03    Min.   :-0.09114   Min.   :0.01905   Min.   :-0.0422   Min.   :-0.01261   Min.   :-0.01659  
+ 1st Qu.: 0.000e+00   1st Qu.:0.42178   1st Qu.:0.42    1st Qu.: 0.42131   1st Qu.:0.42156   1st Qu.: 0.4220   1st Qu.: 0.42131   1st Qu.: 0.42149  
+ Median : 0.000e+00   Median :0.44041   Median :0.44    Median : 0.43935   Median :0.43985   Median : 0.4411   Median : 0.43935   Median : 0.43941  
+ Mean   :-6.414e+06   Mean   :0.44477   Mean   :0.44    Mean   : 0.44478   Mean   :0.44475   Mean   : 0.4448   Mean   : 0.44478   Mean   : 0.44476  
+ 3rd Qu.: 0.000e+00   3rd Qu.:0.47010   3rd Qu.:0.47    3rd Qu.: 0.46962   3rd Qu.:0.47057   3rd Qu.: 0.4703   3rd Qu.: 0.46976   3rd Qu.: 0.46981  
+ Max.   : 1.000e+00   Max.   :0.69566   Max.   :0.81    Max.   : 0.84201   Max.   :0.86068   Max.   : 0.6786   Max.   : 0.68295   Max.   : 0.71693  
+                                        NA's   :37505                                                                                               
+      X17              X18                X19                X20              X21                X22             X23              X24        
+ Min.   :-0.084   Min.   :-0.05426   Min.   :-0.03118   Min.   :0.1258   Min.   :-0.06027   Min.   :-0.14   Min.   :0.1331   Min.   :0.0280  
+ 1st Qu.: 0.422   1st Qu.: 0.42161   1st Qu.: 0.42235   1st Qu.:0.4220   1st Qu.: 0.42187   1st Qu.: 0.42   1st Qu.:0.4218   1st Qu.:0.4216  
+ Median : 0.440   Median : 0.43986   Median : 0.44157   Median :0.4411   Median : 0.44112   Median : 0.44   Median :0.4401   Median :0.4395  
+ Mean   : 0.445   Mean   : 0.44477   Mean   : 0.44475   Mean   :0.4448   Mean   : 0.44476   Mean   : 0.44   Mean   :0.4448   Mean   :0.4447  
+ 3rd Qu.: 0.470   3rd Qu.: 0.47010   3rd Qu.: 0.47034   3rd Qu.:0.4706   3rd Qu.: 0.47089   3rd Qu.: 0.47   3rd Qu.:0.4694   3rd Qu.:0.4701  
+ Max.   : 0.796   Max.   : 0.91496   Max.   : 0.63391   Max.   :0.7242   Max.   : 0.66148   Max.   : 1.02   Max.   :0.8245   Max.   :0.7817  
+ NA's   :5202                                                                               NA's   :39682                    NA's   :3067    
+      X25                  X26                X27               X28          
+ Min.   :-3.397e+13   Min.   :0.005499   Min.   :0.04592   Min.   :-0.07012  
+ 1st Qu.: 0.000e+00   1st Qu.:0.421574   1st Qu.:0.42159   1st Qu.: 0.42178  
+ Median : 0.000e+00   Median :0.439535   Median :0.43984   Median : 0.44039  
+ Mean   :-1.764e+07   Mean   :0.444767   Mean   :0.44476   Mean   : 0.44477  
+ 3rd Qu.: 0.000e+00   3rd Qu.:0.469802   3rd Qu.:0.47021   3rd Qu.: 0.47031  
+ Max.   : 1.000e+00   Max.   :0.833333   Max.   :0.88156   Max.   : 0.83061  
+ ```
+
+```
 Doing char_2 & char_3
 Fold 1: 0.5516829 [Coef=0.4062+0.1096{101/103 & 0023} ] (with char_2 & char_3)
 Fold 2: 0.5084188 [Coef=0.3771+0.1137{101/103 & 0023} ] (with char_2 & char_3)
