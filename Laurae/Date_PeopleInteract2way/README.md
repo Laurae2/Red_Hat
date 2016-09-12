@@ -1,6 +1,6 @@
 Verbose log when predicting
 
-Fold: <AUC> [Coef= <coef beta> + <std coef alpha où le coef directeur <1 > {<coef directeur < 1> / <coefficients> & <threshold appliqué pour couper les colonnes> ] (with <nom var1> & <nom var2>)
+```Fold: <AUC> [Coef= <coef beta> + <std coef alpha où le coef directeur <1 > {<coef directeur < 1> / <coefficients> & <threshold appliqué pour couper les colonnes> ] (with <nom var1> & <nom var2>)```
 
 ```
 Doing char_2 & char_3
