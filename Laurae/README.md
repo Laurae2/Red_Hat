@@ -3,7 +3,7 @@
 * [11/09/2016 12:22] Date People (49,559KB): https://github.com/Laurae2/CHAPEAU_ROUGE/blob/master/Laurae/Date_People/Date_4800457_0295614_out.zip
 * [11/09/2016 12:22] Date Non-People (49,795KB): https://github.com/Laurae2/CHAPEAU_ROUGE/blob/master/Laurae/Date_NonPeople/Date_4498974_0362636_out.zip
 * [11/09/2016 20:20] Misc: char_5 + char_7 + date dans Non-People (code)
-* [12/09/2016 12:59] Non-People + Date (1.32GB): https://www.dropbox.com/s/dmdxinf8qer2srl/Date_PeopleIter2_out.rar?dl=0
+* [12/09/2016 12:59] Non-People + Date (1.32GB): https://www.dropbox.com/s/dmdxinf8qer2srl/Date_PeopleIter2_out.rar?dl=0 (WARNING: présence de NAs)
 
 ## Date People
 
