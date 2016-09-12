@@ -1,3 +1,7 @@
+Pour le verbose, voir en-dessous de l'image de demo
+
+![Alt text](i40^cimgpsh_orig3.png?raw=true "Optional Title")
+
 Verbose log when predicting
 
 ```Fold: <AUC> [Coef= <coef beta> + <std coef alpha où le coef directeur <1 > {<coef directeur < 1> / <coefficients> & <threshold appliqué pour couper les colonnes> ] (with <nom var1> & <nom var2>)```
