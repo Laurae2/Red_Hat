@@ -41,7 +41,7 @@ date <- date - min(date) + 1
 new_data <- sparse.model.matrix(~.^2, data = data[1:2197291]) #avec comme colonnes dans data: char_5, char_7, et date (toutes de act, pas dans people)
 threshold <- new_data@p[2:length(new_data@p] - new_data@p[1:(length(new_data@)p-1)]
 new_data <- sparse.model.matrix(~.^2, data = data) # on refait pareil mais avec toutes les données
-new_data <- new_data[, threshold >= (417 + qqc????)] # j'ai oublié de sauvegarder ce "qqc????, ça a pas été print dans le log..."
+new_data <- new_data[, threshold >= (417 + 424)] # fixé
 
 # Enlever les colonnes "inutiles" (qui sont déjà rajoutées autre part, donc les colonnes de non-interaction):
 new_data <- new_data[, which(grep(":", colnames(new_data)) %in% 1:ncol(new_data))]
