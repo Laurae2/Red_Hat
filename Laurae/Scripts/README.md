@@ -2,6 +2,8 @@
 
 Test du gbtree, mais jamais convergé donc abandonné.
 
+Edit: 2500 trees sur tout = 0.991827 Pubilc LB
+
 
 ## xgboost_tree_noleak.R
 
