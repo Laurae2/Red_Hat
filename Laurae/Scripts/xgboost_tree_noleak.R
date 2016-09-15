@@ -248,9 +248,9 @@ for (i in 1:5) {
                         early_stopping_rounds = 10,
                         watchlist = list(train = slice_train, test = slice_test))
   gc(verbose = FALSE)
-  out_preds[folded[[i]]] <- predict(my_model, slice_test)
+  out_preds[folded[[i]]] <- predict(my_model, slice_test, ntreelimit = my_model$best_iteration)
   gc(verbose = FALSE)
-  out_preds[2197292:2695978] <- (predict(my_model, dtest) / 5) + out_preds[2197292:2695978]
+  out_preds[2197292:2695978] <- (predict(my_model, dtest, ntreelimit = my_model$best_iteration) / 5) + out_preds[2197292:2695978]
   gc(verbose = FALSE)
   
 }
