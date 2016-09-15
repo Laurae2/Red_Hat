@@ -242,7 +242,7 @@ for (i in 1:5) {
   
   gc(verbose = FALSE)
   set.seed(11111)
-  my_model <- xgb.train(data = dtrain,
+  my_model <- xgb.train(data = slice_train,
                         param,
                         nrounds = 100000,
                         early_stopping_rounds = 10,
