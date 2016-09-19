@@ -29,11 +29,6 @@ def binarizer(ppled, column):
     return csr_matrix((np.ones(temp.shape[0]), 
                        (list(range(0, 189118)), temp)))
 
-ppl.char_1 = LabelEncoder().fit_transform(ppl.char_1)
-char_1 = ppl['char_1']
-char_1 = csr_matrix((np.ones(char_1.shape[0]), 
-                       (list(range(0, 189118)), char_1)))
-
 #%%
 
 ppl = people
