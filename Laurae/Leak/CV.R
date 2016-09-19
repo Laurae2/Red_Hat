@@ -262,5 +262,5 @@ leak_compare <- fread("leak_submission.csv")
 plot(x = 1:498687, y = abs(test_out$outcome - leak_compare$outcome))
 plot(x = 1:498687, y = test_out$std)
 
-mini_learn <- d1_activities[which(abs(valid_out$outcome - d1_train$outcome) >= 0.5)]
+mini_learn <- d1_activities[which(abs(valid_out$outcome - d1_train$outcome) >= 0.5)] # 0.98 LB
 write.csv(mini_learn, "leak_threshold50p.csv", row.names = FALSE)
